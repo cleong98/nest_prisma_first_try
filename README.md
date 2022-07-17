@@ -23,15 +23,46 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+This is a [nestjs](https://nestjs.com) framework there are using [prisma](https://www.prisma.io) and [postgresql](https://www.postgresql.org)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## tutorial reference link
+ - [Building a REST API with NestJS and Prisma](https://www.prisma.io/blog/nestjs-prisma-rest-api-7D056s1BmOL0#seed-the-database)
+
 
 ## Installation
 
 ```bash
+# using npm 
 $ npm install
+
+#or using yarn
+$ yarn install
 ```
 
+## prepare env
+``` bash
+# if mac
+$ touch .env
+#if window
+$ make .env
+```
+- setting  env variable
+``` base
+DATABASE_URL=your postgresql_link
+```
+
+## migration the database
+```bash
+#exp : prisma migrate dev --name first_try
+prisma migrate dev --name your_migration_name
+```
+
+## seed the database (optional)
+
+```bash 
+# seed the database
+$ prisma db seed
+```
 ## Running the app
 
 ```bash
