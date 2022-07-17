@@ -28,6 +28,8 @@ This is a [nestjs](https://nestjs.com) framework there are using [prisma](https:
 ## tutorial reference link
  - [Building a REST API with NestJS and Prisma](https://www.prisma.io/blog/nestjs-prisma-rest-api-7D056s1BmOL0#seed-the-database)
 
+## heroku Link
+- [median api docs](https://nest-prisma-psql-first-try.herokuapp.com/docs)
 
 ## Installation
 
